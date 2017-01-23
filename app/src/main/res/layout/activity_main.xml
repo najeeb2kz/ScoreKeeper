@@ -1,0 +1,220 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="60dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/teamA"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#616161" />
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="4dp"
+                    android:text="@string/score"
+                    android:textColor="@color/color_plus_button"
+                    android:textSize="56sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/team_a_foul_yellow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="24dp"
+                        android:padding="4dp"
+                        android:text="@string/score"
+                        android:textColor="@color/foul_yellow"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/team_a_foul_red"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="@string/score"
+                        android:textColor="@color/foul_red"
+                        android:textSize="32sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/penaltyKickPointsPlus3ForTeamA"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/penalty_kick_points_3"/>
+
+                <Button
+                    android:id="@+id/freeKickPointsPlus2ForTeamA"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/free_kick_points_2"/>
+
+                <Button
+                    android:id="@+id/throwInPointsPlus1ForTeamA"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/throw_in"/>
+
+                <Button
+                    android:id="@+id/goalKickPointsPlus1ForTeamA"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/goal_kick_points"/>
+
+                <Button
+                    android:id="@+id/cornerKickPointsPlus1ForTeamA"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/corner_kick_points"/>
+
+                <Button
+                    android:id="@+id/yellowCardPointsMinus2ForTeamA"
+                    style="@style/foulYellowStyle"
+                    android:text="@string/foul_yellow_card"/>
+
+                <Button
+                    android:id="@+id/redCardPointsMinus3ForTeamA"
+                    style="@style/foulRedStyle"
+                    android:text="@string/foul_red_card"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/teamB"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#616161" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/score"
+                    android:textColor="@color/color_plus_button"
+                    android:textSize="56sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/team_b_foul_yellow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="24dp"
+                        android:padding="4dp"
+                        android:text="@string/score"
+                        android:textColor="@color/foul_yellow"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/team_b_foul_red"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="@string/score"
+                        android:textColor="@color/foul_red"
+                        android:textSize="32sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/penaltyKickPointsPlus3ForTeamB"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/penalty_kick_points_3"/>
+
+                <Button
+                    android:id="@+id/freeKickPointsPlus2ForTeamB"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/free_kick_points_2"/>
+
+                <Button
+                    android:id="@+id/throwInPointsPlus1ForTeamB"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/throw_in"/>
+
+                <Button
+                    android:id="@+id/goalKickPointsPlus1ForTeamB"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/goal_kick_points"/>
+
+                <Button
+                    android:id="@+id/cornerKickPointsPlus1ForTeamB"
+                    style="@style/plusButtonStyle"
+                    android:text="@string/corner_kick_points"/>
+
+                <Button
+                    android:id="@+id/yellowCardPointsMinus2ForTeamB"
+                    style="@style/foulYellowStyle"
+                    android:text="@string/foul_yellow_card"/>
+
+                <Button
+                    android:id="@+id/redCardPointsMinus3ForTeamB"
+                    style="@style/foulRedStyle"
+                    android:text="@string/foul_red_card"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:text="@string/reset"
+            android:textColor="#ffffff"
+            android:textAllCaps="true"
+            android:background="@color/color_reset_button"/>
+    </RelativeLayout>
+</ScrollView>

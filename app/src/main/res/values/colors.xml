@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ColorMinusButtons will change the color of buttons.  This works for API 22 or higher -->
+    <color name="color_plus_button">#2196F3</color>
+
+    <!--ColorMinusButtons will change the color of buttons.  This works for API 22 or higher -->
+    <color name="color_minus_button">#FF9800</color>
+
+    <!--ColorResetButton will change the color of buttons.  This works for API 22 or higher -->
+    <color name="color_reset_button">#000000</color>
+
+    <!-- Foul yellow -->
+    <color name="foul_yellow">#FFEB3B</color>
+
+    <!-- Foul red -->
+    <color name="foul_red">#FF9800</color>
+
+</resources>

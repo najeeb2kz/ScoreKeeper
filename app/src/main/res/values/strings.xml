@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="score">0</string>
+    <string name="penalty_kick_points_3">Penalty Kick +3</string>
+    <string name="free_kick_points_2">Free Kick +2</string>
+    <string name="throw_in">Throw-In +1</string>
+    <string name="goal_kick_points">Goal Kick +1</string>
+    <string name="corner_kick_points">Corner Kick +1</string>
+    <string name="foul_yellow_card">Yellow card</string>
+    <string name="foul_red_card">Red card</string>
+    <string name="reset">reset</string>
+    <string name="action_settings">Settings</string>
+</resources>

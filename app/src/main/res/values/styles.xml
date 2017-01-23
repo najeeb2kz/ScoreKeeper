@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <!-- Color primary will change color of action bar - blue 500-->
+        <item name="colorPrimary">#2196F3</item>
+
+        <!--ColorButtonNormal will change the color of buttons.  This works for API 22 or higher
+        <item name="colorButtonNormal">#2196F3</item>-->
+    </style>
+
+    <!-- Plus Button Style -->
+    <style name="plusButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@color/color_plus_button</item>
+    </style>
+
+    <!-- Yellow Style Button -->
+    <style name="foulYellowStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@color/foul_yellow</item>
+    </style>
+
+    <!-- Red Style Button -->
+    <style name="foulRedStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@color/foul_red</item>
+    </style>
+
+</resources>
